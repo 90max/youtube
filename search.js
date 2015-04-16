@@ -1,6 +1,6 @@
 function showResponse(response){
 	var responseString = JSON.stringify(response, '', 2);
-	doncument.getElementById('response').innerHTML += responseString;
+	document.getElementById('response').innerHTML += responseString;
 }
 
 function onClientLoad(){
@@ -8,6 +8,6 @@ function onClientLoad(){
 }
 
 function onYoutubeApiLoad(){
-	gapi.client.setApiKey('');
+	gapi.client.setApiKey('AIzaSyDeOyIPdyh9Jdc9unl5-qwj8c8_fQEs1NQ');
 	showResponse('Hooray!');
 }
